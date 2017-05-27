@@ -1,0 +1,383 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	
+	font-family: Verdana, Geneva, sans-serif;
+	background-image:url(resurse/bg.png);
+	font-size: 14px;
+	font-style: normal;
+	color:#000000;
+}
+
+pre{
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+.derulare{
+	width:100px;
+	position:relative;
+	left: 10%;
+	display:block;
+
+}
+
+.deurlare_mobile{
+	position:relative;
+	width:100px;
+	left:0%;
+}
+
+.main_d{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 10%;
+	top:5%;
+}
+
+.main_d_mobile{
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left: 0%;
+	top:5%;
+}
+
+.buton_cuprins, .dute_cuprins
+{
+	font-size: 24px;
+	text-align:center;
+	color: #000;
+	cursor: pointer;
+}
+
+.imagini{
+	margin-bottom:-8px;
+	height:60px;
+}
+
+
+.thumbs 
+{ 
+	padding-top: 10px;
+	overflow: hidden;
+	position:relative;
+	left:10%;
+}
+
+.thumbs_mobile 
+{ 
+	padding-top: 10px;
+	overflow: hidden;
+	position:relative;
+	left:0%;
+}
+
+
+.thumbs img, .largeImage 
+{ 
+	border: 1px solid gray; 
+	padding: 2px; 
+	background-color: white;
+}
+
+.largeImage
+{
+	margin-top:5%;
+}
+
+.thumbs img 
+{ 
+	float: left; 
+	margin-right: 6px; 
+}
+
+
+.description 
+{ 
+	background: black; 
+	color: white; 
+	position: absolute; 
+	bottom: 0; 
+	padding: 10px 20px; 
+	margin: 5px; 
+}
+
+.panel 
+{ 
+	position: relative; 
+	width:80%; 
+	left: 10%;
+}
+
+
+.panel_mobile 
+{ 
+	position: relative; 
+	width:100%; 
+	left: 0%;
+}
+
+.subtitlu
+{
+color: #0266C8;
+font-size: 15pt;
+text-indent:0%;
+}
+
+.subtitlu2
+{
+	font-weight:bold;
+	text-indent:2%;
+}
+
+.titlu
+{
+color: #0266C8;
+font-size: 20pt;
+}
+
+.buton_optiuni
+{
+	position:fixed;
+	top:50px;
+	left:0px;
+	cursor:pointer;
+}
+
+.logo{
+	position:relative;
+	margin-left:50%;
+	top:-2px;
+}
+
+.meniu{
+	position:relative;
+	background-color:#656C70;
+	width:100%;
+	height:10%;
+	top:-18px;
+}
+
+.meniu ul
+{
+	text-align:center;
+}
+
+.meniu li{
+	position:relative;
+	list-style:none;
+	display:inline-block;
+	font-size:15pt;
+	align:center;
+	padding:2px;
+	border-right-color:#fff;
+}
+
+a:hover,a:active
+{
+	opacity:0.6;
+	text-decoration:none;
+}
+
+a:link,a:visited
+{
+text-decoration:none;
+color:#0000FF;
+}
+
+a
+{
+text-decoration:none;
+}
+
+.activeb
+{
+	border-bottom:2px solid #0087F8;
+}
+
+.monitor
+{
+	position:absolute;
+	z-index:-1;
+	left: 50%;
+	margin-left: -328px;
+}
+
+.video{	
+	position:relative;
+	top:12px;
+}
+
+.bg_home{
+	margin-top:90px;
+	height:500px;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+
+td{
+	padding:5px;
+}
+
+th{
+	background-color:#00933B;
+}
+
+p{
+	text-indent:2%;
+	margin-left:20px;
+}
+
+
+.buton_optiuni
+{
+	position:fixed;
+	top:10px;
+	left:0px;
+	cursor:pointer;
+}
+
+.meniu_stanga
+{	
+	font-size:30px;
+	background-color:#FFF;
+	position:fixed;
+	top:50px;
+	left:0px;
+}
+
+#negru1
+{
+	background-color:#00933B;
+	position:fixed;
+	top:0px;
+	left:-100px;
+	opacity:0.7;
+}
+
+#negru2
+{
+	background-color:#696969;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+
+#minus
+{
+	top:10px;
+}
+
+.buton
+{
+	position:fixed;
+	left:-90px;
+	bottom:10px;
+	cursor:pointer;
+}
+
+#acasa
+{
+	top:200px;
+	opacity:1;
+}
+
+#personalitati
+{
+	top:300px;
+}
+
+#despre
+{
+	top:400px;
+}
+
+
+.sageata_sus:hover
+{
+	opacity:0.8;
+}
+
+.sageata_jos:hover
+{
+	opacity:0.8;
+}
+
+.buton_cuprins:hover
+{
+	opacity:0.8;
+	color:#0266C8;
+	text-indent:0%;
+	text-shadow:1px 1px #0266C8;
+}#welcome {
+	z-index:1000;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background-color:#000;
+	width:100%;
+	height:100%;
+}
+
+ul{
+	margin-left:3%;
+}
+
+
+.timeline ul
+{
+	margin-left:3%;
+}
+
+.timenormal 
+{
+  width: 4em;
+  height: 4em;
+  text-align: center;
+  line-height: 4em;
+  border-radius: 4em;
+  background: lightblue;
+  margin-bottom:3%;
+  display: inline-block;
+  display:list-item;
+  list-style:none;
+  color: white;
+  position: relative;
+}
+
+.timeactive 
+{
+	width: 6em;
+  height: 6em;
+  text-align: center;
+  line-height: 6em;
+  border-radius: 6em;
+  margin-bottom:3%;
+  display: inline-block;
+  display:list-item;
+  list-style:none;
+  color: white;
+  position: relative;
+  background: dodgerblue;
+}
+
+.timeslide
+{
+	color:#000; 
+	position:relative; 
+	top:-5%; 
+	left:5%;
+}
+
+.timeline p
+{
+	color:#0266C8;
+	font-size:16px;
+}
+
+.timeline li
+{
+	cursor:pointer;
+}
